@@ -1,3 +1,7 @@
+Página web de atajos de GIT
+https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf
+
+
 *para retroceder o salir de una accion
 >q
 
@@ -31,6 +35,7 @@
 
 **Desacer los cambios realizados que no han sido guardados en commit
 >git checkout <nombre archivo>
+>git checkout <nombre de la rama>
 >git checkout . (todos)
 
 **Ir a un punto de la rama 
@@ -84,3 +89,8 @@
 **Si quieres eliminar todos los temporales (ya sea pq no es necesario continuar desde ahi o lo que sea)
 >git stash drop
 
+*Para ver si otra rama tiene un cambio y si no hay conflicto con la principal
+>git diff <Nombre de la rama>
+
+**ELIMINAR una rama
+>git branch -d <Nombre de la rama>
