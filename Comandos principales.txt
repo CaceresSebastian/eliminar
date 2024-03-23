@@ -1,3 +1,9 @@
+*Ver ubicación de las alias, usuario contraseña, conf., etc.
+>C:\Users\sebas en el .gitconfig
+
+*Limpiar la consola
+>clear
+
 *Abrir el vsCode
 >code .
 
@@ -16,3 +22,18 @@
 
 *Crear la version de los archivos junto con el mensaje
 >git commit -m "<Mensaje de la versiona>"
+
+*Ver todo el historial de versiones o commits
+>git log --graph
+
+*Desacer los cambios realizados que no han sido guardados en commit
+>git checkout <nombre archivo>
+>git checkout . (todos)
+
+*Crear un alias a un comando que utilizas muy seguido
+>git config --global alias.<alias del comando> "<el comando sin el git>"  (para usarlo solo es >git <alias>)
+
+*Ignorar archivos que no quieres que esten en el versionamiento
+>touch .gitignore
+ -Dentro del archivo .gitignore se va a escribir los archivos a ignorar
+ >**/<Nombre del archivo a ignorar>
