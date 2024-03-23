@@ -1,2 +1,18 @@
 *Abrir el vsCode
 >code .
+
+*Iniciar control de versiones de git
+>git init
+
+*Crear la rama principal
+>git branch -m main
+
+*ver los cambios realizados y no realizados
+>git status
+
+*Preparar los archivos que se guardaran en el versionamiento
+>git add <nombre archivo>  (Agregar un archivo especifico)
+>git add .  (Agregar todos los archivos)
+
+*Crear la version de los archivos junto con el mensaje
+>git commit -m "<Mensaje de la versiona>"
