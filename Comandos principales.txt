@@ -1,4 +1,4 @@
-para retroceder o salir de una accion
+*para retroceder o salir de una accion
 >q
 
 *Ver ubicación de las alias, usuario contraseña, conf., etc.
@@ -10,28 +10,37 @@ para retroceder o salir de una accion
 *Abrir el vsCode
 >code .
 
-*Iniciar control de versiones de git
+**Iniciar control de versiones de git
 >git init
 
-*Crear la rama principal
+**Crear la rama principal
 >git branch -m main
 
-*ver los cambios realizados y no realizados
+**ver los cambios realizados y no realizados
 >git status
 
-*Preparar los archivos que se guardaran en el versionamiento
+**Preparar los archivos que se guardaran en el versionamiento
 >git add <nombre archivo>  (Agregar un archivo especifico)
 >git add .  (Agregar todos los archivos)
 
-*Crear la version de los archivos junto con el mensaje
+**Crear la version de los archivos junto con el mensaje
 >git commit -m "<Mensaje de la versiona>"
 
 *Ver todo el historial de versiones o commits
 >git log --graph
 
-*Desacer los cambios realizados que no han sido guardados en commit
+**Desacer los cambios realizados que no han sido guardados en commit
 >git checkout <nombre archivo>
 >git checkout . (todos)
+
+**Ir a un punto de la rama 
+>git checkout <id de la rama>
+
+*desacer los cambios guardados en la rama(elimina el progreso o regresa al punto del id, sea que este eliminado o no)
+>git reset --hard <id de la rama>
+
+*Ver todo el historial de ramas, hasta los están eliminadas para poder regresar con el reset --hard
+>git reflog
 
 *Crear un alias a un comando que utilizas muy seguido
 >git config --global alias.<alias del comando> "<el comando sin el git>"  (para usarlo solo es >git <alias>)
@@ -43,3 +52,14 @@ para retroceder o salir de una accion
 
 *Ver a detalle los cambios que se han realizado pero que no han sido guardados en el commit
 >git diffgit 
+
+*Poner un tag al punto en donde te encuetras (o podes ponerle un nombre de version y ahi es donde podes regresar v_1.0.0)
+>git tag <Nombre del tag>
+
+*Visualizar los tags
+>git tags
+
+*Ir al tag
+>git checkout tags/<Nombre del tag>
+
+*
