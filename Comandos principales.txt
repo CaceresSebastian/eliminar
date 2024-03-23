@@ -72,3 +72,15 @@
 >git merge <nombre de la rama>
  -Si por alguna razón hubo un conflicto al unir, eliminar la que se desea 
 
+**Crear un guardado temporal LOCAL(por si no quieres agregar un commit, ya que tiene errores o lo que sea)
+>git stash
+
+*Quieres ver si tienes guardados temporales
+>git stash list
+
+**Quieres traer todos los guardados temporales
+>git stash pop
+
+**Si quieres eliminar todos los temporales (ya sea pq no es necesario continuar desde ahi o lo que sea)
+>git stash drop
+
