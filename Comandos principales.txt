@@ -62,4 +62,8 @@
 *Ir al tag
 >git checkout tags/<Nombre del tag>
 
-*
+**Crear una nueva rama (secundaria)
+>git branch <nombre de la nueva rama>
+
+**Cambiar de rama
+>git switch <nombre de la rama>
