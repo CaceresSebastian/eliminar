@@ -70,4 +70,5 @@
 
 **Unir ramas (que la otra rama <> se una a la rama actual)
 >git merge <nombre de la rama>
+ -Si por alguna razón hubo un conflicto al unir, eliminar la que se desea 
 
