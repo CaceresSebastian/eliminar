@@ -67,3 +67,6 @@
 
 **Cambiar de rama
 >git switch <nombre de la rama>
+
+**Unir ramas
+>git merge <
