@@ -1,3 +1,6 @@
+para retroceder o salir de una accion
+>q
+
 *Ver ubicación de las alias, usuario contraseña, conf., etc.
 >C:\Users\sebas en el .gitconfig
 
@@ -37,3 +40,6 @@
 >touch .gitignore
  -Dentro del archivo .gitignore se va a escribir los archivos a ignorar
  >**/<Nombre del archivo a ignorar>
+
+*Ver a detalle los cambios que se han realizado pero que no han sido guardados en el commit
+>git diffgit 
