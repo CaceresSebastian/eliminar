@@ -1,3 +1,3 @@
-print("hello git V2!")
+print("hello")
 
 print("SAP 22222222222222222! V2")
