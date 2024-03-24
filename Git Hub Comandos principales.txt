@@ -1,0 +1,13 @@
+*Inicializar git como github recomiendo
+>git init
+>git add README.md
+>git commit -m "first commit"
+>git branch -M main
+>git remote add origin https://github.com/cp-sebastian/eliminar.git
+>git push -u origin main
+
+	-Caso que ya hayas iniciado el proyecto antes
+	-Continuas apartir de esta linea
+	>git remote add origin https://github.com/<Lo que sigue>
+
+
