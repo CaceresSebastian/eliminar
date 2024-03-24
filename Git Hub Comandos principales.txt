@@ -11,3 +11,18 @@
 	>git remote add origin https://github.com/<Lo que sigue>
 
 
+**Carga todos los commits de la rama local al GitHub
+>git push
+>git push origin main          (rama principal y RECOMENDADO)
+>git push <nombre de la rama>
+
+**Descarga todo el historial del marcador del repositorio pero sin incorporar cambios, solo es para visualizar
+>git fetch
+
+**Descarga el historial del marcador e incorpora cambios
+>git pull
+>git pull origin main    	(rama principal y RECOMENDADO)
+>git pull <nombre de la rama>
+
+Si hay un error al traer 
+>git config pull.rebase false
